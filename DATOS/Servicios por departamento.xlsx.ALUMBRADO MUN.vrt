@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="ALUMBRADO_MUN">
+        <SrcDataSource relativeToVRT="1">Servicios por departamento.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>ALUMBRADO MUN</SrcLayer>
+        <Field name="COD_MUNI_NIT" src="COD_MUNI_NIT" type="String"/>
+        <Field name="NOMB_MUNI" src="NOMB_MUNI" type="String"/>
+        <Field name="ELEC_URB" src="ELEC_URB" type="Integer"/>
+        <Field name="ELEC_RU" src="ELEC_RU" type="Integer"/>
+        <Field name="KER_URB" src="KER_URB" type="Integer"/>
+        <Field name="KER_RU" src="KER_RU" type="Integer"/>
+        <Field name="CAN_URB" src="CAN_URB" type="Integer"/>
+        <Field name="CAN_RU" src="CAN_RU" type="Integer"/>
+        <Field name="PAN_URB" src="PAN_URB" type="Integer"/>
+        <Field name="PAN_RU" src="PAN_RU" type="Integer"/>
+        <Field name="BAT_URB" src="BAT_URB" type="Integer"/>
+        <Field name="BAT_RU" src="BAT_RU" type="Integer"/>
+        <Field name="OTR_URB" src="OTR_URB" type="Integer"/>
+        <Field name="OTR_RU" src="OTR_RU" type="Integer"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>

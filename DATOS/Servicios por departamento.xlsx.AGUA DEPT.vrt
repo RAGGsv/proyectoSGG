@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="AGUA_DEPT">
+        <SrcDataSource relativeToVRT="1">Servicios por departamento.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>AGUA DEPT</SrcLayer>
+        <Field name="COD_SERV" src="COD_SERV" type="String"/>
+        <Field name="COD_DEP" src="COD_DEP" type="String"/>
+        <Field name="CANE_INS_HOG" src="CANE_INS_HOG" type="Integer"/>
+        <Field name="CANE_OUT_HOG" src="CANE_OUT_HOG" type="Integer"/>
+        <Field name="CANE_VECI" src="CANE_VECI" type="Integer"/>
+        <Field name="PIL_CHO_PUB" src="PIL_CHO_PUB" type="Integer"/>
+        <Field name="POZO_PUB" src="POZO_PUB" type="Integer"/>
+        <Field name="POZO_PRIV" src="POZO_PRIV" type="Integer"/>
+        <Field name="CAM_CARR_PIPA" src="CAM_CARR_PIPA" type="Integer"/>
+        <Field name="OJO_RIO_QUEBR" src="OJO_RIO_QUEBR" type="Integer"/>
+        <Field name="AGUA_LLUVIA" src="AGUA_LLUVIA" type="Integer"/>
+        <Field name="OTRO" src="OTRO" type="Integer"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>

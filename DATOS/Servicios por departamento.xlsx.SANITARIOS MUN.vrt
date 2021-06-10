@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="SANITARIOS_MUN">
+        <SrcDataSource relativeToVRT="1">Servicios por departamento.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>SANITARIOS MUN</SrcLayer>
+        <Field name="COD_MUNI_NIT" src="COD_MUNI_NIT" type="String"/>
+        <Field name="NOMB_MUNI" src="NOMB_MUNI" type="String"/>
+        <Field name="INOD_CON_ALCAN" src="INOD_CON_ALCAN" type="Integer"/>
+        <Field name="INOD_CON_FOSA" src="INOD_CON_FOSA" type="Integer"/>
+        <Field name="LETRINA" src="LETRINA" type="Integer"/>
+        <Field name="ABONERA" src="ABONERA" type="Integer"/>
+        <Field name="NO_DISPONE" src="NO_DISPONE" type="Integer"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
